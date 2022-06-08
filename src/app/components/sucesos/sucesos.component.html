@@ -1,0 +1,7 @@
+<ion-grid fixed>
+  <ion-col size="10" *ngFor="let suceso of listaSucesos">
+    <ion-row size="10" offset="10">
+      <app-suceso [suceso]="suceso"></app-suceso>
+    </ion-row>
+  </ion-col>
+</ion-grid>
